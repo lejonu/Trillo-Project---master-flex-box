@@ -117,3 +117,27 @@
     margin-right: 1.618rem;
   }
 }
+
+////////////////////////////////////////@at-root
+// SIDE NAVIGATION
+
+.side-nav {
+  &__item {
+  }
+  &__link {
+  }
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+////////////////////////////////////////@at-root
+// LEGAL TEXT
+
+.legal {
+  font-size: 1.2rem;
+  color: var(--color-grey-dark-4);
+  text-align: center;
+  padding: 2.5rem;
+}
